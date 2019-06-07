@@ -666,13 +666,68 @@ iframe {
         margin-left: 3%;
     }
     
+    .col1Rockets {
+        margin-bottom: 0;
+    }
     .col2Rockets {
         margin-right: 20px;
-        margin-left: 20px
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    h2 {
+        margin-top: 0;
     }
     
     .rocketimages {
         width: 100%;
+    }
+    
+    .dragonpicture {
+        width: 45%;
+        margin-left: 20px;
+    }
+    
+    .columns {
+        font-size: 22px;
+    }
+    
+    
+    .maincol1 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .maincol2 {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    
+    .col1info {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .col2info {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    
+    .col3info {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .col4info {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    ul {
+        font-size: 22px;
+    }
+    
+    .footerlinks {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
     
     .footermiddle {
