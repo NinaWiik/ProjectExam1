@@ -725,6 +725,28 @@ iframe {
         font-size: 22px;
     }
     
+    .containerupcominglaunches {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    .launchcontainer {
+        font-size: 25px;
+        width: 100%;
+        margin-right: 20px; 
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .nextlaunch {
+        margin: 0px; 
+        width: 100%; 
+    }
+    
+    .collaunches {
+        margin-bottom: 20px;
+    }
+    
     .footerlinks {
         font-size: 20px;
         margin-bottom: 10px;
