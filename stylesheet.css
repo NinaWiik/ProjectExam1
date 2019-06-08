@@ -61,6 +61,10 @@ p {
     margin-bottom: 10px;
 }
 
+.intrologomedia {
+    display: none;
+}
+
 .introcontainer {
     margin-top: 22em;
     background-color: rgba(1,48,70, 0.3);
@@ -618,6 +622,26 @@ iframe {
 
 /* TABLET*/
 @media only screen and (max-width: 960px) {
+    .indexphotos {
+        background-image: url(pictures/backgrounddragonMEDIAQ.jpg);
+        text-align: left;
+        margin: 0 auto;     
+        background-attachment: fixed;
+}
+    .intrologo {
+        display: none;
+    }
+    .intrologomedia {
+        display: inline-block;
+        width: 90%;
+        float: right;
+        margin-bottom: 20px;
+    }
+    
+    .introcontainer {
+        background-color: rgba(255,255,255, 0.5);
+    }
+    
     .containerspaceX {
         flex-direction: column;
         margin-left: 5%;
@@ -630,6 +654,10 @@ iframe {
         margin-right: 1%;
     }
     
+    .links {
+        text-decoration: underline;
+        font-size: 22px;
+    }
     .active {
         padding: 10px 12px 10px 12px; 
         font-size: 20px;
@@ -667,12 +695,14 @@ iframe {
     }
     
     .col1Rockets {
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
     }
     .col2Rockets {
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 10px;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
     }
     
     h2 {
@@ -686,12 +716,17 @@ iframe {
     .dragonpicture {
         width: 45%;
         margin-left: 20px;
+        margin-right: 22px;
+        margin-bottom: 15px;
     }
     
     .columns {
         font-size: 22px;
     }
     
+    p {
+        font-size: 22px;
+    }
     
     .maincol1 {
         margin-right: 0;
@@ -745,8 +780,42 @@ iframe {
     
     .collaunches {
         margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 0;
+    }
+
+    .launchlinksbottom a {
+        font-size: 25px; 
     }
     
+    .launchlinks a {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    
+    label {
+        font-size: 22px;
+    }
+    
+    input[type="submit"] {
+        padding: 15px 25px 15px 25px; 
+        font-size: 24px;
+    }
+    
+    .col1contact {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .col2contact {
+        margin:0;
+        margin-top: 20px;
+    }
+    
+    textarea {
+        width: 97%;
+    }
     .footerlinks {
         font-size: 20px;
         margin-bottom: 10px;
