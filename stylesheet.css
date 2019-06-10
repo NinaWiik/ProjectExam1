@@ -215,19 +215,25 @@ header {
 }
 
 .readmore {
-    color: black; 
-    text-decoration: none; 
-    padding: 7px; 
-    background-color: #cac5e2;
-    border: 2px solid white; 
-    border-radius: 5px; 
-    display: inline-block
+    padding: 8px 15px 8px 15px; 
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff8c3f;
+    border: 2px solid white;
+    border-radius: 10px; 
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: #013046;
 }
 
 .readmore:hover {
     background-color: #005287;
-    color: #cac5e2;
+    color: #ff8c3f;
 }
+
 
 .toplink {
     color: white; 
@@ -378,8 +384,9 @@ button {
     background-color: #013046;
 }
 
-nav a:hover {
+button:hover {
     background-color: #005287;
+    cursor: pointer;
 }
 
 /* ROCKETS & DRAGON SITE */

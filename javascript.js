@@ -23,24 +23,6 @@ function createSpaceAPI1(result){
 }
 
 
-// SPACE X SITE
-
-document.getElementById("toggle").addEventListener("click", function() {
-    var displayText = document.getElementById("quickfactToggle").style;
-    var hidePicture = document.getElementById("toggleAway").style;
-    if(displayText.display === "block") {
-        displayText.display = "none";
-        hidePicture.display = "block";
-    }
-    
-    else {
-        displayText.display = "block";
-        hidePicture.display = "none";
-    }
-    
-})
-
-
 // ROCKETS
 
 fetch('https://api.spacexdata.com/v3/rockets')
@@ -54,7 +36,7 @@ function createRockets(result){
     for(var i=0; i < result.length; i++){
         document.getElementById('rockets').innerHTML += '<div class="rocketcontainer"><h2>' + result[i].rocket_name +' </h2> <img src="' + result[i].flickr_images[1] + '" class="rocketimages"> <p class="column"> Rocket ID: '+ result[i].rocket_id +' </p> <p class="column"> Rocket type: '+ result[i].rocket_type +' </p> <p class="column"> Height in meters: '+ result[i].height.meters + '  </p>  <p class="column"> Diameter in meters: '+ result[i].diameter.meters + ' </p>  <p class="column"> Mass in kilos: '+ result[i].mass.kg + '  </p> <p class="column">Cost per launch: '+ result[i].cost_per_launch +' </p> <p class="column">First Flight: '+ result[i].first_flight +' </p> <p class="column">Country: '+ result[i].country +' </p> <p class="column"> <p class="column"> Description: '+ result[i].description + '  </p>  <a class="links" href="' + result[i].wikipedia +' "> INFO ON WIKIPEDIA </a>  </div>';
     }
-}
+};
 
 // DRAGONS
 
@@ -70,7 +52,7 @@ function createDragons(result){
         document.getElementById('dragons').innerHTML += '<div class="rocketcontainer"><h2>' + result[i].name +' </h2> <img src="' + result[i].flickr_images[0] + '" class="rocketimages"> <p class="column"> Dragon ID: '+ result[i].id +' </p> <p class="column"> Type: '+ result[i].type +' </p> <p class="column"> Crew Capacity: '+ result[i].crew_capacity +' </p> <p class="column"> First Flight: '+ result[i].first_flight +' </p> <p class="column"> Dry Mass in Kg: '+ result[i].dry_mass_kg +' </p> <p class="column"> Diameter in meters: '+ result[i].diameter.meters +' </p> <p class="column"> Description: '+ result[i].description +' </p>  <a class="links" href="' + result[i].wikipedia +' "> INFO ON WIKIPEDIA </a> </div>';
     }
     
-}
+};
 
 // UPCOMING LAUNCHES
 
@@ -85,7 +67,7 @@ function createUpcomingLaunches(result){
     for(var i=0; i < result.length; i++){
         document.getElementById('upcominglaunches').innerHTML += '<div class="launchcontainer"><h5>' + result[i].mission_name +' </h5> <p class="column"> Flight Number: '+ result[i].flight_number +' </p> <p class="column"> Launch Year: '+ result[i].launch_year +' </p> <p class="column"> Launch date UTC: '+ result[i].launch_date_utc +' </p> <p class="column"> Rocket ID: '+ result[i].rocket.rocket_id +' </p> <p class="column"> Rocket Name: '+ result[i].rocket.rocket_name +' </p> <p class="column"> Launch Site: '+ result[i].launch_site.site_name_long +' </p> <p class="column"> Details: '+ result[i].details +' </p></div>'; 
     }
-}
+};
 
 
 // NEXT LAUNCH
@@ -156,3 +138,20 @@ document.getElementById("submitContact").addEventListener ("click", function () 
         };
     
 }); 
+
+
+// SPACE X SITE
+
+document.getElementById("toggle").addEventListener("click", function() {
+    var displayText = document.getElementById("quickfactToggle").style;
+    var hidePicture = document.getElementById("toggleAway").style;
+    if(displayText.display === "block") {
+        displayText.display = "none";
+        hidePicture.display = "block";
+    }
+    
+    else {
+        displayText.display = "block";
+        hidePicture.display = "none";
+    }  
+});
