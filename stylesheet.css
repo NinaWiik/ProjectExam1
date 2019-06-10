@@ -407,6 +407,14 @@ li {
     border-radius: 10px;
 }
 
+.dragonpicturemobile { 
+    width: 100%;
+    margin-left: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: none;
+}
+
 /* LAUNCHES */
 .launchcontainer {
     width: 80%;
@@ -835,6 +843,12 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
+    .indexphotos {
+        background-image: url(pictures/indexmobile.jpg);
+        text-align: left;
+        margin: 0 auto;     
+        background-attachment: fixed;
+    }
     .mainpicturetop {
         margin-top: 178px;
         width: 120%;
@@ -860,14 +874,28 @@ iframe {
     h1 {
         font-size: 26px;
         margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 26px;
     }
     
     h3 {
-        font-size: 12px;
+        font-size: 18px;
     }
     
     h4 {
         font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 20px;
+        padding: 6px;
+    }
+    
+    h6 {
+        font-size: 18px;
     }
     
     header {
@@ -881,6 +909,10 @@ iframe {
     
     li {
         padding-top: 5px;
+    }
+    
+    .links {
+        font-size: 18px;
     }
     
     .containerspaceX {
@@ -906,7 +938,73 @@ iframe {
     .columns {
         font-size: 16px;
     }
-    .containerfooter {
+    
+    .containerupcominglaunches {
+        margin: 0;
+    }
+    
+    .collaunches {
+        margin: 0 10px 0 10px;
+    }
+    
+    .column {
+        font-size: 18px;
+    }
+    
+    .columnsRocket {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .linkslaunch {
+        font-size: 18px;
+        text-decoration: underline;
+        margin-right: 20px;
+    }
+    
+    .launchlinksbottom a {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    
+    .launchlinks a {
+        font-size: 18px;
+        margin-bottom: 20px
+    }
+    
+    .dragonpicturemobile {
+        display: block;
+        margin: 10px 0 10px 0;
+    }
+    
+    .dragonpicture {
+        display: none;
+    }
+    
+    .falconfamily {
+        margin-left: 7px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    
+    label {
+        font-size: 19px;
+    }
+    
+    textarea {
+        font-size: 16px;
+    }
+    
+    input[type="submit"] {
+        padding: 5px 5px 5px 5px; 
+        font-size: 22px;
+    }
+    
+    .toplink {
+        text-decoration: underline;
     }
     
     .footerlinks  {
