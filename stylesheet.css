@@ -352,6 +352,36 @@ li {
     padding: 12px; 
 }
 
+#quickfactToggle {
+    display: none; 
+}
+
+.falconpic {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+
+button {
+    padding: 8px 15px 8px 15px; 
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff8c3f;
+    border: 2px solid white;
+    border-radius: 10px; 
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: #013046;
+}
+
+nav a:hover {
+    background-color: #005287;
+}
+
 /* ROCKETS & DRAGON SITE */
 .rocketcontainer {
     margin-bottom: 50px;
@@ -755,7 +785,8 @@ iframe {
     }
     .col2info {
         margin-right: 0;
-        margin-left: 10px;
+        margin-left: 13%;
+        width: 70%;
     }
     
     .col3info {
@@ -853,6 +884,11 @@ iframe {
         margin-top: 178px;
         width: 120%;
     }
+    
+    .mainpicture {
+        width: 120%;
+    }
+    
     .logo {
         margin-bottom: 5px;
     }
@@ -918,13 +954,24 @@ iframe {
     .containerspaceX {
         margin-top: 0px;
     }
-    .maincol1, .maincol2, .col1info, .col2info, .col3info, .col4info {
+    .maincol1, .maincol2, .col1info, .col3info, .col4info {
         margin: 0;
         padding: 0;
         margin-bottom: 15px;
     }
     
-    .maincol2, .col2info {
+    .col2info{
+        padding-top: 10px;
+        width: 90%;
+        margin-left: 4px;
+    }
+    
+    button {
+        padding: 5px 20px 5px 20px;
+        font-size: 18px;
+    }
+    
+    .maincol2 {
         padding: 10px;
     }
     

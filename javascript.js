@@ -23,6 +23,24 @@ function createSpaceAPI1(result){
 }
 
 
+// SPACE X SITE
+
+document.getElementById("toggle").addEventListener("click", function() {
+    var displayText = document.getElementById("quickfactToggle").style;
+    var hidePicture = document.getElementById("toggleAway").style;
+    if(displayText.display === "block") {
+        displayText.display = "none";
+        hidePicture.display = "block";
+    }
+    
+    else {
+        displayText.display = "block";
+        hidePicture.display = "none";
+    }
+    
+})
+
+
 // ROCKETS
 
 fetch('https://api.spacexdata.com/v3/rockets')
