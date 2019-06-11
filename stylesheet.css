@@ -163,7 +163,8 @@ nav a {
     border: 2px solid white;
     border-radius: 10px; 
     letter-spacing: 0.1em;
-    text-align: center
+    text-align: center;
+    
 }
 
 nav a:hover {
@@ -198,12 +199,15 @@ header {
     border-radius: 10px; 
     letter-spacing: 0.1em;
     text-align: center;
-    background-color: #729ea1; 
+    background-color: #8DBAC1;
+    font-weight: bold;
 }
 
 .active:hover {
     background-color: #e7e5e5; 
 }
+
+
 /* LINKS */
 .links {
     color: white; 
