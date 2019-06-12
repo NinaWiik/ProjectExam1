@@ -4,7 +4,7 @@ COLORS:
 Orange: #ff8c3f;
 Light blue: #005287;
 Dark blue: #013046;
-Purple: #cac5e2;
+Green/blue: #8DBAC1;
 Grey: #f2f2f2; 
 
 FONTS
@@ -55,7 +55,7 @@ p {
 
 .intrologo {
     display: block;  
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -66,8 +66,8 @@ p {
 }
 
 .introcontainer {
-    margin-top: 22em;
-    background-color: rgba(1,48,70, 0.3);
+    margin-top: 20em;
+    background-color: rgba(255,255,255, 0.4);
     text-align: center; 
     padding-top: 20px;
 }
@@ -75,11 +75,11 @@ p {
 .intro {
     font-family: 'Quicksand', sans-serif; 
     margin: auto;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
 }
 .introcontainer a {
-    padding: 10px 50px 10px 50px; 
+    padding: 10px 40px 10px 40px; 
     display: inline-block; 
     background-color: #005287; 
     margin-bottom: 20px;
@@ -113,6 +113,8 @@ h2 {
 h3 {
     letter-spacing: 3px;
     font-size: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 h4 {
@@ -309,9 +311,10 @@ header {
     border-radius: 10px;
     text-align: left;
     margin-top: 20px;
-    border: 3px solid #729ea1;
+    border: 3px solid #8DBAC1;
     padding: 10px 0 10px 15px;
     margin-bottom: 30px;
+    height: 100%;
 }
 
 .col1info {
@@ -327,7 +330,7 @@ header {
 .col2info{
     flex: 1;
     color: white;
-    border: 3px solid #729ea1; 
+    border: 3px solid #8DBAC1; 
     border-radius: 10px;
     text-align: left;
     padding: 0 10px;
@@ -335,6 +338,7 @@ header {
     margin-right: 10px;
     margin-left: 5%;
     padding-top: 10px;
+    height: 100%;
 }
 
 .col3info {
@@ -529,6 +533,13 @@ button:hover {
     background-color: #005287;
 }
 
+.launchpicture {
+    float: right; 
+    width: 46%;
+    margin-left: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 
 /* CONTACT FORM */
 label {
@@ -673,6 +684,46 @@ iframe {
     display: none;
 }
 
+
+/* RESPONSIVE DESKTOP */
+@media only screen and (max-width: 1440px) {
+    nav a {
+        padding: 10px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    
+    .active {
+        padding: 10px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    
+    
+    .col2info {
+        flex: 2;
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+    nav a {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    
+    .active {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    
+    .col2info {
+        flex: 2;
+    }
+}
+
+
 /* TABLET*/
 @media only screen and (max-width: 960px) {
     .indexphotos {
@@ -734,8 +785,7 @@ iframe {
     }
     
     h3 {
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin: 20px 0;
     }
     
     .falconfamily {
@@ -863,8 +913,9 @@ iframe {
     }
     
     .col2contact {
-        margin:0;
-        margin-top: 20px;
+        margin: 20px 0 20px 0;
+        border: 0px;
+        padding: 0;
     }
     
     textarea {
@@ -930,6 +981,7 @@ iframe {
     
     h3 {
         font-size: 18px;
+        margin: 8px 0;
     }
     
     h4 {
@@ -959,7 +1011,12 @@ iframe {
     }
     
     .links {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    
+    .readmore {
+        font-size: 16px;
+        padding: 5px 10px 5px 10px;;
     }
     
     .containerspaceX {
@@ -1006,16 +1063,21 @@ iframe {
     }
     
     .column {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .columnsRocket {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
+        line-height: 25px;
+    }
+    
+    .rocketcontainer {
+        margin-bottom: 30px;
     }
     
     .linkslaunch {
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: underline;
         margin-right: 20px;
     }
@@ -1027,7 +1089,7 @@ iframe {
     
     .launchlinks a {
         font-size: 18px;
-        margin-bottom: 20px
+        margin-bottom: 12px;
     }
     
     .dragonpicturemobile {
@@ -1036,6 +1098,10 @@ iframe {
     }
     
     .dragonpicture {
+        margin: 0 0 0 10px;
+    }
+    
+    .launchpicture {
         display: none;
     }
     
@@ -1044,7 +1110,7 @@ iframe {
     }
     
     p {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     
@@ -1103,6 +1169,9 @@ iframe {
         padding-bottom: 15px;
     }
     
+    .containerfooter {
+        margin-top: 10px;
+    }
     
     
     
