@@ -51,8 +51,8 @@ header {
 p {
     color: #f2f2f2;
 }
-/*INTRO INDEX*/
 
+/*INTRO INDEX*/
 .intrologo {
     display: block;  
     width: 40%;
@@ -94,8 +94,9 @@ p {
     background-color: #013046;
 }
 
+/* HEADINGS & PARAGRAPHS */
 .columns {
-    line-height: 1.5em;;
+    line-height: 1.5em;
 }
 
 h1 {
@@ -144,9 +145,8 @@ h6 {
     margin-bottom: 10px;
     margin-top: 15px;
 }
-/*INDEX*/
-/*NAV*/
 
+/*NAV*/
 nav {
     float: center; 
     margin: 0 auto; 
@@ -209,7 +209,6 @@ header {
     background-color: #e7e5e5; 
 }
 
-
 /* LINKS */
 .links {
     color: white; 
@@ -240,7 +239,6 @@ header {
     color: #ff8c3f;
 }
 
-
 .toplink {
     color: white; 
     text-decoration: none;
@@ -267,7 +265,6 @@ header {
 }
 
 /* SPACEX SITE */
-
 .mainpicture {
     width: 100%;
     border-top: 1px solid white; 
@@ -291,7 +288,6 @@ header {
     margin-right: 15%;
     background-size: contain;
 }
-
 
 .maincol1 {
     flex: 2;
@@ -327,6 +323,7 @@ header {
     margin-right: 20px;
     margin-left: 10px;
 }
+
 .col2info{
     flex: 1;
     color: white;
@@ -375,7 +372,6 @@ li {
     border-radius: 10px;
     margin-bottom: 18px;
 }
-
 
 button {
     padding: 8px 15px 8px 15px; 
@@ -731,7 +727,7 @@ iframe {
         text-align: left;
         margin: 0 auto;     
         background-attachment: fixed;
-}
+    }
     .intrologo {
         display: none;
     }
@@ -822,15 +818,12 @@ iframe {
         margin-right: 22px;
         margin-bottom: 15px;
     }
-    
     .columns {
         font-size: 22px;
     }
-    
     p {
         font-size: 22px;
     }
-    
     .maincol1 {
         margin-right: 0;
         margin-left: 0;
@@ -849,26 +842,21 @@ iframe {
         margin-left: 13%;
         width: 70%;
     }
-    
     .col3info {
         margin-right: 0;
         margin-left: 0;
     }
-    
     .col4info {
         margin-right: 0;
         margin-left: 0;
     }
-    
     ul {
         font-size: 22px;
     }
-    
     .containerupcominglaunches {
         margin-left: 10px;
         margin-right: 20px;
     }
-    
     .launchcontainer {
         font-size: 25px;
         width: 100%;
@@ -876,48 +864,39 @@ iframe {
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
-    
     .nextlaunch {
         margin: 0px; 
         width: 100%; 
     }
-    
     .collaunches {
         margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
         padding-right: 0;
     }
-
     .launchlinksbottom a {
         font-size: 25px; 
     }
-    
     .launchlinks a {
         font-size: 24px;
         margin-bottom: 12px;
     }
-    
     label {
         font-size: 22px;
     }
-    
     input[type="submit"] {
         padding: 15px 25px 15px 25px; 
         font-size: 24px;
     }
-    
     .col1contact {
         margin: 0;
         padding: 0;
     }
-    
     .col2contact {
         margin: 20px 0 20px 0;
         border: 0px;
         padding: 0;
     }
-    
     textarea {
         width: 97%;
     }
@@ -925,7 +904,6 @@ iframe {
         font-size: 20px;
         margin-bottom: 10px;
     }
-    
     .footermiddle {
         flex: 2;
         padding-top: 18px;
@@ -935,6 +913,7 @@ iframe {
     }
 }
 
+/* PHONE */
 @media only screen and (max-width: 600px) {
     .indexphotos {
         background-image: url(pictures/indexmobile.jpg);
@@ -946,11 +925,9 @@ iframe {
         margin-top: 178px;
         width: 120%;
     }
-    
     .mainpicture {
         width: 120%;
     }
-    
     .logo {
         margin-bottom: 5px;
     }
@@ -963,62 +940,49 @@ iframe {
         stroke: 1px solid white; 
         font-weight: bold;
     }
-    
     .active {
         font-size: 15px; 
         margin-top: 10px;
     }
-    
     h1 {
         font-size: 26px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    
     h2 {
         font-size: 26px;
     }
-    
     h3 {
         font-size: 18px;
         margin: 8px 0;
     }
-    
     h4 {
         font-size: 20px;
     }
-    
     h5 {
         font-size: 20px;
         padding: 6px;
     }
-    
     h6 {
         font-size: 18px;
     }
-    
     header {
         border: 1px solid white; 
         padding-bottom: 10px;
     }
-    
     ul {
         font-size: 16px;
     }
-    
     li {
         padding-top: 5px;
     }
-    
     .links {
         font-size: 16px;
     }
-    
     .readmore {
         font-size: 16px;
         padding: 5px 10px 5px 10px;;
     }
-    
     .containerspaceX {
         margin-top: 0px;
     }
@@ -1027,114 +991,89 @@ iframe {
         padding: 0;
         margin-bottom: 15px;
     }
-    
     .col2info{
         padding-top: 10px;
         width: 90%;
         margin-left: 4px;
     }
-    
     button {
         padding: 5px 20px 5px 20px;
         font-size: 18px;
     }
-    
     .maincol2 {
         padding: 10px;
     }
-    
     .maintext {
         font-size: 18px;
     }
-    
     .apiInfo {
         font-size: 18px;
     }
     .columns {
         font-size: 16px;
     }
-    
     .containerupcominglaunches {
         margin: 0;
     }
-    
     .collaunches {
         margin: 0 10px 0 10px;
     }
-    
     .column {
         font-size: 16px;
     }
-    
     .columnsRocket {
         font-size: 16px;
         margin-top: 10px;
         line-height: 25px;
     }
-    
     .rocketcontainer {
         margin-bottom: 30px;
     }
-    
     .linkslaunch {
         font-size: 16px;
         text-decoration: underline;
         margin-right: 20px;
     }
-    
     .launchlinksbottom a {
         font-size: 18px;
         margin-top: 15px;
     }
-    
     .launchlinks a {
         font-size: 18px;
         margin-bottom: 12px;
     }
-    
     .dragonpicturemobile {
         display: block;
         margin: 10px 0 10px 0;
     }
-    
     .dragonpicture {
         margin: 0 0 0 10px;
     }
-    
     .launchpicture {
         display: none;
     }
-    
     .falconfamily {
         margin-left: 7px;
     }
-    
     p {
         font-size: 16px;
     }
-    
-    
     label {
         font-size: 19px;
     }
-    
     textarea {
         font-size: 16px;
     }
-    
     input[type="submit"] {
         padding: 5px 5px 5px 5px; 
         font-size: 22px;
     }
-    
     .toplink {
         text-decoration: underline;
     }
-    
     .footerlinks  {
         font-size: 14px; 
     }
-    
     .footerleft {
         display: inline-block;
         padding-right: 15px; 
@@ -1142,38 +1081,28 @@ iframe {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
     .footerlinks {
         margin-right: px; 
     }
-    
     .footerright {
         margin-bottom: 0;
     }
-    
     .footermiddle {
         display: none; 
     }
-    
     .footermobile {
         text-align: center;
         margin: ;
         background-color: #013046;
         display: block;
     }
-    
     .columnsfooter {
         margin: 0; 
         font-size: 15px;
         padding: 10px;
         padding-bottom: 15px;
     }
-    
     .containerfooter {
         margin-top: 10px;
     }
-    
-    
-    
-    
 }
