@@ -220,7 +220,7 @@ header {
     text-decoration: underline; 
 }
 
-.readmore {
+/*.readmore {
     padding: 8px 15px 8px 15px; 
     display: inline-block;
     margin-bottom: 10px;
@@ -240,6 +240,7 @@ header {
     color: #ff8c3f;
 }
 
+*/
 .toplink {
     color: white; 
     text-decoration: none;
@@ -312,6 +313,7 @@ header {
     padding: 10px 0 10px 15px;
     margin-bottom: 30px;
     height: 100%;
+    background-color: #013046;
 }
 
 .col1info {
@@ -325,7 +327,7 @@ header {
     margin-left: 10px;
 }
 
-.col2info{
+.col2info {
     flex: 1;
     color: white;
     border: 3px solid #8DBAC1; 
@@ -337,6 +339,7 @@ header {
     margin-left: 5%;
     padding-top: 10px;
     height: 100%;
+    background-color: #013046;
 }
 
 .col3info {
@@ -358,6 +361,38 @@ header {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 10px;
+}
+
+
+.subscribeColumn {
+    flex: 1;
+    color: white;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: 3px solid #8DBAC1;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #013046;
+    padding-bottom: 10px;
+}
+
+.subscribe {
+    font-size: 22px;
+    margin-top: 18px;
+    letter-spacing: 1.9px;
+}
+
+label[class="subscribelabel"] {
+    width: 90px;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+
+input[class="subscribemail"] {
+    width: 54%;
+    margin-right: 2%;
+    font-size: 22px;
 }
 
 li {
@@ -459,7 +494,7 @@ button:hover {
 
 /* LAUNCHES */
 .launchcontainer {
-    width: 80%;
+    width: 100%;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
@@ -629,6 +664,8 @@ iframe {
     width: 100%;
     height: 300px;
 }
+
+
 
 /* FOOTER */
 .containerfooter {
@@ -805,6 +842,23 @@ iframe {
         font-size: 22px;
     }
     
+    .subscribe {
+        font-size: 24px;
+    }
+
+    label[class="subscribelabel"] {
+        width: 90px;
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+
+    input[class="subscribemail"] {
+        width: 54%;
+        margin-right: 2%;
+        font-size: 30px;
+    }
+    
+    
     h2 {
         margin-top: 0;
     }
@@ -851,6 +905,8 @@ iframe {
         margin-right: 0;
         margin-left: 0;
     }
+    
+    
     ul {
         font-size: 22px;
     }
@@ -889,6 +945,12 @@ iframe {
         padding: 15px 25px 15px 25px; 
         font-size: 24px;
     }
+    
+    input[class="submitSub"] {
+        padding: 8px 5px 6px 5px;
+        font-size: 24px;
+    }
+    
     .col1contact {
         margin: 0;
         padding: 0;
@@ -1004,6 +1066,24 @@ iframe {
     .maincol2 {
         padding: 10px;
     }
+    
+    .subscribeColumn {
+        margin: 0;
+    }
+    
+    .subscribe {
+        font-size: 20px;
+    }
+    
+    label[class="subscribelabel"] {
+        font-size: 20px;
+    }
+
+    input[class="subscribemail"] {
+        width: 58%;
+        font-size: 20px;
+    }
+    
     .maintext {
         font-size: 18px;
     }
@@ -1069,6 +1149,11 @@ iframe {
         padding: 5px 5px 5px 5px; 
         font-size: 22px;
     }
+    
+    input[class="submitSub"] {
+
+        font-size: 21px;
+    }
     .toplink {
         text-decoration: underline;
     }
@@ -1081,9 +1166,6 @@ iframe {
         margin-bottom: 0;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    .footerlinks {
-        margin-right: px; 
     }
     .footerright {
         margin-bottom: 0;

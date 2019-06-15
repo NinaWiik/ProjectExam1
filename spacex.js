@@ -34,3 +34,17 @@ document.getElementById("toggle").addEventListener("click", function() {
         hidePicture.display = "none";
     }  
 })
+
+document.getElementById("submitSub").addEventListener ("click", function () {
+        var emailValue = document.getElementById("email").value; 
+    var emailRegExp = "^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,24}$";
+    var emailError = document.getElementById("emailError");
+        document.getElementById("emailError").style.display = "none";
+
+    emailValidation = new RegExp (emailRegExp);
+    var emailValidated = emailValidation.test(emailValue);
+        if (emailValidation.test(emailValue) === false) {
+            document.getElementById("emailError").style.display = "block";
+        }
+    
+})
