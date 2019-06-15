@@ -1100,8 +1100,17 @@ iframe {
     .containerupcominglaunches {
         margin: 0;
     }
+    
+    .launchcontainer {
+        font-size: 25px;
+        width: 100%;
+        margin-right: 20px; 
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
     .collaunches {
         margin: 0 10px 0 10px;
+        padding: 0;
     }
     .column {
         font-size: 16px;
@@ -1113,6 +1122,9 @@ iframe {
     }
     .rocketcontainer {
         margin-bottom: 30px;
+    }
+    .rocketimages {
+        width: 99%;
     }
     .linkslaunch {
         font-size: 16px;
