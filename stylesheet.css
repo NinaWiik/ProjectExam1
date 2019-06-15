@@ -1084,6 +1084,10 @@ iframe {
         font-size: 20px;
     }
     
+    .subscribeColumn {
+        width: 90%;
+    }
+    
     .maintext {
         font-size: 18px;
     }
