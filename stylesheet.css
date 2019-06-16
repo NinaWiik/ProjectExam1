@@ -935,12 +935,18 @@ iframe {
     .launchlinksbottom a {
         font-size: 25px; 
     }
+    .error {
+        font-size: 22px;
+    }
     .launchlinks a {
         font-size: 24px;
         margin-bottom: 12px;
     }
+    input {
+        font-size: 20px;
+    }
     label {
-        font-size: 22px;
+        font-size: 24px;
     }
     input[type="submit"] {
         padding: 15px 25px 15px 25px; 
@@ -1145,7 +1151,7 @@ iframe {
         margin: 10px 0 10px 0;
     }
     .dragonpicture {
-        margin: 0 0 0 10px;
+        margin: 26px 0 0 10px;
     }
     .launchpicture {
         display: none;
@@ -1155,6 +1161,12 @@ iframe {
     }
     p {
         font-size: 16px;
+    }
+    .error {
+        font-size: 18px;
+    }
+    input {
+        font-size: 10px;
     }
     label {
         font-size: 19px;
