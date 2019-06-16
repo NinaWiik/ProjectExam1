@@ -1079,18 +1079,16 @@ iframe {
     }
     
     .subscribe {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     label[class="subscribelabel"] {
         font-size: 20px;
     }
-
     input[class="subscribemail"] {
-        width: 58%;
+        width: 60%;
         font-size: 20px;
     }
-    
     .subscribeColumn {
         width: 90%;
     }
@@ -1105,7 +1103,7 @@ iframe {
         font-size: 16px;
     }
     .containerupcominglaunches {
-        margin: 0;
+        margin: 0 10px;
     }
     
     .launchcontainer {
@@ -1164,9 +1162,6 @@ iframe {
     }
     .error {
         font-size: 18px;
-    }
-    input {
-        font-size: 10px;
     }
     label {
         font-size: 19px;
