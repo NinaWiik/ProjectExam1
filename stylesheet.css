@@ -435,9 +435,10 @@ button:hover {
 }
 
 .rocketimages {
-    width: 90%;
+    width: 80%;
     border: 2px solid white; 
-    border-radius: 10px
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .col1Rockets {
